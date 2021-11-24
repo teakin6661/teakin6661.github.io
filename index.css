@@ -135,3 +135,14 @@ a {
     box-shadow: 5px 5px 15px #000;
     background-color: transparent;
 }
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
