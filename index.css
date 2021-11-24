@@ -143,6 +143,7 @@ label {
 
 input,
 label {
+    width:25%;
     margin: .4rem 0;
 }
 
