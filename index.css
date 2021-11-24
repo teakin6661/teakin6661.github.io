@@ -128,7 +128,7 @@ a {
     transform: translate3d(0, 0, 0);
 }
 
-.clock-container {
+.clock-container  {
     padding: 20px 15px;
     border-radius: 5px;
     border: 1px solid #bdbdbd;
