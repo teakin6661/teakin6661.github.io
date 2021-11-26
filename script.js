@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         new Clock(clocks[i]);
     }
 
-    const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+    const DAYS = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum at', 'Sabtu'];
 
     const date = new Date();
     const currHour = date.getHours();
@@ -81,9 +81,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (currHour >= 6 && currHour <= 11) {
         timeframe = 'Pagi';
-    } else if (currHour >= 12 && currHour <= 16) {
+    } else if (currHour >= 12 && currHour <= 15) {
         timeframe = 'Siang';
-    } else if (currHour >= 17 && currHour <= 20) {
+    } else if (currHour >= 16 && currHour <= 19) {
         timeframe = 'Sore';
     } else {
         timeframe = 'Malam';
